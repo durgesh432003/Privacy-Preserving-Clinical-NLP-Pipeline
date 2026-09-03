@@ -1,0 +1,332 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:98043fc9-f3bb-4a7e-b9dc-f379c2d20d90",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57054005",
+              "display": "Acute myocardial infarction"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I21.9",
+              "display": "Acute myocardial infarction"
+            }
+          ],
+          "text": "Acute ST-elevation myocardial infarction"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-03-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b30e0330-d5d6-4d76-97c7-a94a3ab4a8ed",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "anterior wall (I21.0)"
+            }
+          ],
+          "text": "anterior wall (I21.0)"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: at discharge"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:54405cea-04a4-4b79-936e-1c12881df873",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343006",
+              "display": "Congestive heart failure"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I50.9",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "left ventricular systolic dysfunction"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: at discharge"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82952dbd-fed4-428f-aa86-14cdb655cb39",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I21.0"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab58d895-3e73-4f95-a2fe-7a03af5f8c97",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I50.1"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92f3d4d4-c383-458e-b307-5e016813d3d9",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "314076",
+                "display": "Lisinopril 10 MG Oral Tablet"
+              }
+            ],
+            "text": "Lisinopril"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3345a038-8aeb-487c-a92c-f3398bdf8a9f",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "243670",
+                "display": "Aspirin 81 MG Oral Tablet"
+              }
+            ],
+            "text": "Aspirin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0940c61-8aea-403f-ab9d-980acc9759e5",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "33367005",
+              "display": "Coronary angiography"
+            }
+          ],
+          "text": "Emergency coronary angiography"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f2539c92-7b9c-455d-b28d-950c2cb6e48b",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Primary percutaneous coronary intervention (PCI) to LAD"
+            }
+          ],
+          "text": "Primary percutaneous coronary intervention (PCI) to LAD"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b60f9c7a-3c8a-45ba-9265-14e77f1961c6",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "40701008",
+              "display": "Echocardiography"
+            }
+          ],
+          "text": "Echocardiogram"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d36a5fcf-4791-4390-9edf-9bc570e824c5",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Continuous cardiac monitoring"
+            }
+          ],
+          "text": "Continuous cardiac monitoring"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    }
+  ]
+}

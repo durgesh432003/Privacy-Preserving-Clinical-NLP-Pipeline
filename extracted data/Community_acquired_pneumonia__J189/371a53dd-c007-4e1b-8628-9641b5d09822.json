@@ -1,0 +1,361 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:6d918325-9182-469f-98bf-884eda956777",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "display": "Community-acquired pneumonia (J189)"
+            }
+          ],
+          "text": "Community-acquired pneumonia (J189)"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82fb5df5-3533-4688-8258-5f995f0e1347",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "display": "Acute exacerbation of COPD (J441)"
+            }
+          ],
+          "text": "Acute exacerbation of COPD (J441)"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eeab823f-33de-4998-aaf7-d93c27eaca42",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J189"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47f8d016-ae7e-443d-ba79-ea53889a83a4",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J441"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac8cfc4d-79bd-44cf-ba8b-9c103ce29e6c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "display": "Amoxicillin"
+              }
+            ],
+            "text": "Amoxicillin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "500mg TDS"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd26a190-c10c-466c-ad75-5df7614f8f1e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "display": "Prednisolone"
+              }
+            ],
+            "text": "Prednisolone"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "30mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac943690-70a2-46a1-9b99-b292da6a675b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "display": "Salbutamol inhaler"
+              }
+            ],
+            "text": "Salbutamol inhaler"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "100mcg two puffs PRN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59b73d81-c795-460a-8f8e-37912ee236b4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "display": "Tiotropium"
+              }
+            ],
+            "text": "Tiotropium"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "18mcg once daily via HandiHaler"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d83ac8d-001d-4bcd-87a2-688270a85a35",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "display": "Carbocisteine"
+              }
+            ],
+            "text": "Carbocisteine"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "375mg three times daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:87346861-2aa7-448e-9b3d-f6ad8c9d2bdf",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "CT Thorax with contrast"
+            }
+          ],
+          "text": "CT Thorax with contrast"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:348882f3-116b-4749-9ab3-c266c9fc4c13",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "Spirometry"
+            }
+          ],
+          "text": "Spirometry"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0ba630a8-972c-4c17-a383-48be0b252472",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "Sputum culture and sensitivity"
+            }
+          ],
+          "text": "Sputum culture and sensitivity"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:281bfc86-fa83-4b53-881d-840599351f45",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "Arterial blood gas"
+            }
+          ],
+          "text": "Arterial blood gas"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5da79286-e3ac-4954-a0e8-362dc97d130b",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "Nebuliser therapy (salbutamol, ipratropium)"
+            }
+          ],
+          "text": "Nebuliser therapy (salbutamol, ipratropium)"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    }
+  ]
+}

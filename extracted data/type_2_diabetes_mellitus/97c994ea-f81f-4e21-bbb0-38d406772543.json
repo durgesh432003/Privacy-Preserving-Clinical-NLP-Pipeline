@@ -1,0 +1,525 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:40efd470-2e90-4ae0-9eb8-20e376c39a41",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Type 2 Diabetes Mellitus"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea025eb7-c0df-4129-a94d-19c3ec9557bc",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive vascular disease"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Hypertensive vascular disease"
+            }
+          ],
+          "text": "Essential Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: at discharge"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac00bae6-22b9-43b6-af8c-0144edaef663",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57054005",
+              "display": "Acute myocardial infarction"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I21.9",
+              "display": "Acute myocardial infarction"
+            }
+          ],
+          "text": "Hyperlipidaemia"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: at discharge"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c6ac820a-ec59-4261-8133-27d59895da77",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E11.9"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b53e4cf6-ef67-48db-b74d-b1636943e3b3",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5fdf35ff-a019-419f-b3d5-6ffddd3487b5",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E78.5"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e0bf360-739b-4c3b-9e15-9ea89e940b14",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E11.9"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4480aee1-daa2-4fc7-8b57-babf82c5930b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "860975",
+                "display": "Metformin hydrochloride 500 MG Oral Tablet"
+              }
+            ],
+            "text": "Metformin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "500mg twice daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9404cef4-d785-40fa-93a7-d0f17c507d43",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "UNMAPPED",
+                "display": "Gliclazide"
+              }
+            ],
+            "text": "Gliclazide"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "80mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:237e0db1-9597-4402-9542-68812619a981",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "UNMAPPED",
+                "display": "Ramipril"
+              }
+            ],
+            "text": "Ramipril"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "5mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf749b12-8612-459c-98fe-05836dee2861",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "197361",
+                "display": "Amlodipine 5 MG Oral Tablet"
+              }
+            ],
+            "text": "Amlodipine"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "5mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:07e37d67-099b-41c0-806e-ef026feca98a",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "243670",
+                "display": "Aspirin 81 MG Oral Tablet"
+              }
+            ],
+            "text": "Aspirin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "75mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14653eb6-cffe-4c94-a1c3-d5c9b68a1ddf",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "617314",
+                "display": "Atorvastatin 20 MG Oral Tablet"
+              }
+            ],
+            "text": "Atorvastatin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "40mg at night"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8bb4dd56-9d2c-4454-a473-6f0eeb9820b2",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "HbA1c blood test"
+            }
+          ],
+          "text": "HbA1c blood test"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b7241f31-2ff3-436b-9805-9844f1c073dd",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Fasting glucose test"
+            }
+          ],
+          "text": "Fasting glucose test"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5ebf6525-5156-4dff-8572-8635efec03e6",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "eGFR test"
+            }
+          ],
+          "text": "eGFR test"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c12297ef-2495-461f-89e5-8b5fe9a5cde1",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "29303009",
+              "display": "Electrocardiogram"
+            }
+          ],
+          "text": "ECG"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    }
+  ]
+}

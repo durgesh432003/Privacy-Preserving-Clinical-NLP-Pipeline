@@ -1,0 +1,8 @@
+.venv/
+data/raw/
+data/eval/
+__pycache__/
+.pytest_cache/
+*.csv
+.env/
+*.env

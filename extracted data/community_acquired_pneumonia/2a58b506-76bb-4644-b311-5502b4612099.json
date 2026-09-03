@@ -1,0 +1,451 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5f72462f-4f5e-4f0c-b2c2-722f1f1775ff",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "233604007",
+              "display": "Pneumonia"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J18.9",
+              "display": "Pneumonia"
+            }
+          ],
+          "text": "Community-acquired pneumonia"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-03-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7de7b15d-7c9d-428c-a630-ecdf0e9d9202",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-03-15",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/assertion-status",
+            "valueString": "HISTORICAL"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7869ee8f-9ca5-4b79-8032-d468258cadbc",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive vascular disease"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Hypertensive vascular disease"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-03-15",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/assertion-status",
+            "valueString": "HISTORICAL"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:241eb160-12fc-4987-a757-58ece2a703c3",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "differential",
+              "display": "Differential (Family History)"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Breast cancer"
+            }
+          ],
+          "text": "Breast cancer"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: on admission"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/assertion-status",
+            "valueString": "FAMILY"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a11f3a94-042e-417c-8caf-ee378facf526",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "refuted",
+              "display": "Refuted"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Pulmonary embolism"
+            }
+          ],
+          "text": "Pulmonary embolism"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: on admission"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/assertion-status",
+            "valueString": "ABSENT"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e9b9c8e-c4ef-463f-9b67-30200b8cb401",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13645005",
+              "display": "Chronic obstructive lung disease"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J44.9",
+              "display": "Chronic obstructive lung disease"
+            }
+          ],
+          "text": "Chronic obstructive pulmonary disease (COPD)"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf2b32a7-fe88-4f05-98cb-6eee71261d10",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343006",
+              "display": "Congestive heart failure"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I50.9",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Heart failure"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:19640330-d61c-4102-8e39-ee7fbe38a8fd",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E11.9"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d6a9301-aa0e-41cb-99bd-5dc728ac4017",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J18.9"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca424206-c924-4943-a242-6f3754c02646",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "860975",
+                "display": "Metformin hydrochloride 500 MG Oral Tablet"
+              }
+            ],
+            "text": "Metformin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "50mg BID"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fbbb557-56b0-493d-9e04-6fd23fcbe810",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "314076",
+                "display": "Lisinopril 10 MG Oral Tablet"
+              }
+            ],
+            "text": "Lisinopril"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "10mg twice daily"
+          }
+        ]
+      }
+    }
+  ]
+}

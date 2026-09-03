@@ -1,0 +1,441 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:aee71e0b-c441-418e-bacb-b7bdc58aca47",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "233604007",
+              "display": "Pneumonia"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J18.9",
+              "display": "Pneumonia"
+            }
+          ],
+          "text": "Community-acquired pneumonia"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-02-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5c2fdc21-dba6-4e0b-aa15-7c021736d93d",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13645005",
+              "display": "Chronic obstructive lung disease"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J44.9",
+              "display": "Chronic obstructive lung disease"
+            }
+          ],
+          "text": "Acute exacerbation of COPD"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "onsetDateTime": "2024-02-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20996d49-e369-4683-aae5-631fe4c58b9f",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Respiratory failure type 1"
+            }
+          ],
+          "text": "Respiratory failure type 1"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "note": [
+          {
+            "text": "Temporal context: at discharge"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b447577a-109c-4d17-9554-098ac03caeea",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Pulmonary rehabilitation referral"
+            }
+          ],
+          "text": "Pulmonary rehabilitation referral"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30c26b80-d188-46ba-b823-481ca0f30afb",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J18.9"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3d89cc8-bd73-4233-8371-9e05954bd10d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "723",
+                "display": "Amoxicillin Oral Suspension / Capsule"
+              }
+            ],
+            "text": "Amoxicillin"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "500mg three times daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:817f9159-d5dc-4f46-8cd9-2e2a16745c16",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "UNMAPPED",
+                "display": "Prednisolone"
+              }
+            ],
+            "text": "Prednisolone"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "30mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd940b80-ad51-48e6-8b21-845752806c53",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "UNMAPPED",
+                "display": "Salbutamol"
+              }
+            ],
+            "text": "Salbutamol"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "100mcg two puffs PRN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67f386c4-fd70-4f95-8d3f-922cfd1d3141",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "UNMAPPED",
+                "display": "Tiotropium"
+              }
+            ],
+            "text": "Tiotropium"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "18mcg via HandiHaler"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:33a6b3ec-9d9c-418b-96d9-3f735f454d7c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "medication": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/uil/rxnorm",
+                "code": "UNMAPPED",
+                "display": "Carbocisteine"
+              }
+            ],
+            "text": "Carbocisteine"
+          }
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "dosage": [
+          {
+            "text": "375mg three times daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:68f99d0d-2943-4103-8207-040577303ba5",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "CT Thorax with contrast"
+            }
+          ],
+          "text": "CT Thorax with contrast"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:65b7c95e-4399-4376-a41b-d0d2b3c60efc",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Spirometry"
+            }
+          ],
+          "text": "Spirometry"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f738227e-afcb-426e-9975-48bddabcbfdf",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "UNMAPPED",
+              "display": "Sputum culture and sensitivity"
+            }
+          ],
+          "text": "Sputum culture and sensitivity"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6c25d86-2799-4d33-8cd9-0f99ef1338a4",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "168731009",
+              "display": "Standard chest X-ray"
+            }
+          ],
+          "text": "Chest X-ray"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c586e63-5d53-44d6-8944-4815bafad92c",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "40701008",
+              "display": "Echocardiography"
+            }
+          ],
+          "text": "Abdominal ultrasound"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        }
+      }
+    }
+  ]
+}

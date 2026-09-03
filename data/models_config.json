@@ -1,0 +1,18 @@
+{
+  "models": {
+    "phi4-mini:latest": {
+      "display_name": "Phi-4 Mini",
+      "category": "clinical",
+      "description": "Microsoft's compact 3.8B param model \u2014 optimized for clinical NLP tasks. Fast inference, good accuracy.",
+      "parameter_count": "3.8B",
+      "enabled": true
+    },
+    "llama3.1:8b": {
+      "display_name": "llama3.1:8b",
+      "category": "general",
+      "description": "Ollama model: llama3.1:8b",
+      "parameter_count": "",
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+You are an expert clinical AI evaluator. Your job is to assess how well an AI model extracted structured medical data from a hospital discharge summary.
+
+ORIGINAL DISCHARGE SUMMARY:
+{input_text}
+
+MODEL'S EXTRACTED OUTPUT:
+{extracted_json}
+
+FHIR BUNDLE GENERATED:
+{fhir_json}
+
+FHIR VALIDATION STATUS: {fhir_valid}
+
+EVALUATION CRITERIA:
+Score each dimension from 0 to 100:
+
+1. **accuracy** (weight: 40%): Are the extracted diagnoses, medications, procedures, and ICD codes correct? Are there hallucinations (entities not in the original text)? Are there misattributions?
+
+2. **completeness** (weight: 30%): Were ALL diagnoses, medications, procedures, and ICD codes from the text captured? Were important dates extracted?
+
+3. **fhir_compliance** (weight: 20%): Is the FHIR Bundle structurally valid? Does it follow R4 conventions? Are resource types correct? Are required fields present?
+
+4. **format_quality** (weight: 10%): Is the extracted JSON well-formed? Are field types correct (lists vs strings)? Are medication doses and frequencies properly structured?
+
+INSTRUCTIONS:
+- Be strict but fair. Real clinical data extraction must be accurate.
+- Hallucinations (extracting things NOT in the text) are severe accuracy penalties.
+- Missing critical entities (diagnoses, meds) are severe completeness penalties.
+- Provide brief reasoning for each score.
+
+OUTPUT FORMAT:
+Return ONLY a valid JSON object. No markdown, no explanations outside the JSON.
+
+{{
+  "accuracy": integer 0-100,
+  "completeness": integer 0-100,
+  "fhir_compliance": integer 0-100,
+  "format_quality": integer 0-100,
+  "overall_score": float (weighted average),
+  "reasoning": {{
+    "accuracy": "Brief explanation",
+    "completeness": "Brief explanation",
+    "fhir_compliance": "Brief explanation",
+    "format_quality": "Brief explanation"
+  }},
+  "hallucinations_found": ["list of hallucinated entities, if any"],
+  "missed_entities": ["list of entities missed, if any"]
+}}

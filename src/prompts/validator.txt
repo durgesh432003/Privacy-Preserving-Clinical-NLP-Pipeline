@@ -1,0 +1,23 @@
+You are a clinical data validation expert. Your job is to review extracted structured medical data for plausibility and medical consistency.
+
+ORIGINAL TEXT:
+{input_text}
+
+EXTRACTED JSON:
+{extracted_json}
+
+INSTRUCTIONS:
+1. Review the extracted JSON against the original text.
+2. Check for clinical plausibility (e.g., are the medications appropriate for the diagnoses?).
+3. Check for hallucinations (are there diagnoses or medications in the JSON that are NOT mentioned in the text?).
+4. If you find critical errors (hallucinations, incorrect data), set "is_valid" to false and list them in "issues".
+5. If you find minor discrepancies (missing dose, minor typo), leave "is_valid" as true and list them in "warnings".
+6. Output a JSON object with your plausibility assessment matching the exact structure below. Do not include markdown formatting.
+
+EXPECTED JSON STRUCTURE:
+{{
+  "is_valid": true or false,
+  "confidence": float between 0.0 and 1.0,
+  "issues": ["String explaining critical errors like hallucinations or incorrect data"],
+  "warnings": ["String explaining minor warnings or missing non-critical data"]
+}}

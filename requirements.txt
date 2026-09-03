@@ -1,0 +1,13 @@
+langgraph
+langchain-community
+langchain-ollama
+fastapi
+uvicorn
+streamlit
+pydantic
+fhir.resources
+pytest
+httpx
+plotly
+python-dotenv
+pandas

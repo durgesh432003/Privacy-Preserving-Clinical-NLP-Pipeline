@@ -1,0 +1,21 @@
+You are a healthcare interoperability expert. Your task is to convert structured medical data into a valid HL7 FHIR R4 JSON Bundle.
+
+EXTRACTED DATA:
+{extracted_json}
+
+INSTRUCTIONS:
+1. Convert the extracted data into a FHIR R4 Bundle (type: "collection").
+2. Diagnoses and ICD codes should become "Condition" resources.
+3. Medications should become "MedicationStatement" resources.
+4. Procedures should become "Procedure" resources.
+5. All references (like patient) can point to "Patient/1".
+6. Output ONLY valid FHIR JSON. No markdown, no explanations.
+
+EXPECTED OUTPUT FORMAT:
+{{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    ... resources ...
+  ]
+}}
